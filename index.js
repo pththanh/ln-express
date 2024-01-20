@@ -10,6 +10,10 @@ app.get('/login', (req, res) => {
   res.send('Login Page!')
 })
 
+app.get('/register', (req, res) => {
+  res.send('Register Page!')
+})
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
