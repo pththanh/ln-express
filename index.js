@@ -11,7 +11,7 @@ app.get('/login', (req, res) => {
 })
 
 app.get('/register', (req, res) => {
-  res.send('Register Page!')
+  res.send('Register Page!!')
 })
 
 app.listen(port, () => {
